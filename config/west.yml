@@ -2,6 +2,8 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
+    - name: urob
+      url-base: https://github.com/urob
     # dongle_display
     - name: englmaxi
       url-base: https://github.com/englmaxi
@@ -10,8 +12,8 @@ manifest:
       url-base: https://github.com/mctechnology17
   projects:
     - name: zmk
-      remote: zmkfirmware
-      revision: v0.3.0
+      remote: urob
+      revision: main
       import: app/west.yml
     # dongle_display
     - name: zmk-dongle-display
